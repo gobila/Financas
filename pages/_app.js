@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import '../styles/globals.css';
 import Head from 'next/head';
 import React from 'react';

@@ -10,11 +10,11 @@ import Style from './Table.module.scss';
 export default function Table() {
   const [data, setData] = useContext(ApiContext).despesas;
 
-  function onDel(e) {
+  const onDel = (e) => {
     const { name } = e.target.name;
     const newArr = [data.filter((item) => item.timeStamp === name)];
     setData(...newArr);
-  }
+  };
 
   return (
     <table className={Style.Table}>

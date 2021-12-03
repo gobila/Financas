@@ -19,7 +19,13 @@ export default function Button({
     </div>
   );
 }
+Button.defaultProps = {
+  onClick: '',
+  name: '',
+};
 Button.propTypes = {
   children: PropTypes.node.isRequired,
   type: PropTypes.string.isRequired,
+  onClick: PropTypes.func,
+  name: PropTypes.string,
 };

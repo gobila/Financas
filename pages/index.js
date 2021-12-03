@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import FormWallet from '../src/components/Form';
 import Table from '../src/components/Tabelas';

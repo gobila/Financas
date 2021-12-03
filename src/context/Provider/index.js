@@ -16,10 +16,8 @@ const ApiProvider = function ({ children }) {
     }
   }, []);
   useEffect(() => {
-    // if (data.length > 0) {
-      const dados = JSON.stringify(data);
-      localStorage.setItem('despesas', dados);
-    // }
+    const dados = JSON.stringify(data);
+    localStorage.setItem('despesas', dados);
   }, [data]);
 
   return (
