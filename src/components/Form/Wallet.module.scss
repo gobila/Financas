@@ -1,0 +1,23 @@
+
+.Wallet{
+    width: 90%;
+    display: flex;
+    &__Input{
+        width: 100%;
+        padding: 2px;
+        margin-top: 5px;
+        border-radius: 8px;
+        line-height: 2;
+        border: 1px solid forestgreen;
+    }
+    &__Label{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 10px;
+    }
+}
+.errors{
+    color:red;
+    margin: 0px;
+}

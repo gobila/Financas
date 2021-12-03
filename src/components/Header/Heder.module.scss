@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    margin-top: 0px;
+    background-color: #5f9ea0;
+    width: 100%;
+    align-items: center;
+    padding: 0px 2em;
+    justify-content: space-between;
+    &__logo{
+        display: flex;
+        align-items: center;
+    }
+    &__img{
+        width: 60px;
+        height: 60px;
+    }
+    &__Title{
+        color:#FFF;
+        margin-left: 1em;
+    }
+    &__saldo_neg{
+        color: #f55b5b;
+        margin-left: 1em;
+    }
+    &__saldo_pos{
+        color:#FFF;
+        margin-left: 1em;
+    }
+    
+}

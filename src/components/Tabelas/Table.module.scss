@@ -1,0 +1,19 @@
+.Table{
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 2em;
+    margin-bottom: 20px;
+    &__head{
+        background-color: #800080a2;
+        color:#FFF;
+    }
+    &__body{
+        border-bottom: 1px solid;
+        // &:nth-child(even) {background-color: #f2f2f2;}
+        background-color: #f2f2f2;
+        &:nth-child(even) {
+            background-color: #128d183a;
+        }
+    }
+}

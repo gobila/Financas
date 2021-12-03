@@ -1,0 +1,21 @@
+.Button{
+    &__container{
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__btn{
+        background-color: #5f9ea0;
+        border: 0px;
+        border-radius: 10px;
+        height: 40px;
+        color: #FFF;
+        font-weight: bold;
+        padding:10px;
+        &:hover{
+            background-color: #539447;
+            cursor: pointer;
+        }
+    }
+}
